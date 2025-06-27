@@ -14,7 +14,7 @@ unknownVar = "";
 unknownVar = 1;
 unknownVar = () => {};
 
-// 타입정제로만 사용할 수 있다.
+// 타입을 정제하여 사용할 수 있다.
 if (typeof unknownVar === "number") {
   num = unknownVar;
 }
