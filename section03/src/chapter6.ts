@@ -1,4 +1,6 @@
 // 타입 단언 : as
+// typescript 컴파일러의 눈을 잠깐 가리는 용도
+// 위험한 문법이니 확실할 때만 사용
 
 type Person = {
   name: string;
